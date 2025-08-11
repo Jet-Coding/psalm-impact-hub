@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					dark: 'hsl(var(--primary-dark))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				ministry: {
+					blue: 'hsl(var(--ministry-blue))',
+					'blue-dark': 'hsl(var(--ministry-blue-dark))',
+					gold: 'hsl(var(--ministry-gold))',
+					green: 'hsl(var(--ministry-green))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
